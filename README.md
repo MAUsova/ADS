@@ -12,6 +12,8 @@
 
 ```
 git submodule sync
+```
+```
 git submodule update --init --recursive
 ```
 
@@ -19,7 +21,7 @@ git submodule update --init --recursive
 
 Шаг 2. Перейти в папку **build** и вызывать из неё командную строку (cmd).
 
-Шаг 3. Выполнить команду, соотвутсвующую вашей версии Visual Studio:
+Шаг 3. Выполнить команду, соответствующую вашей версии Visual Studio:
 
 ```
 cmake -G "Visual Studio 18 2026" ..
